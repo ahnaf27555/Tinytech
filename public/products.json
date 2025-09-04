@@ -5,7 +5,7 @@
     "price": "To Be Announced",
     "category": "modelCar",
     "description": "Pagani Zonda Cinque – where speed meets style, now in our collection. ",
-    "image": "/images/pagani-zonda.jpg"
+    "image": "images/pagani-zonda.jpg"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "price": "To Be Announced",
     "category": "actionFigures",
     "description": "Bring home the ultimate action figure – where style meets power.",
-    "image": "/images/one-piece-action-figure.jpg"
+    "image": "images/one-piece-action-figure.jpg"
   },
   {
     "id": 3,
@@ -21,6 +21,6 @@
     "price": "To Be Announced",
     "category": "animeAccessories",
     "description": "Inspired by the tiger’s claw – Karambit strikes differently.",
-    "image": "/images/karambit.jpg"
+    "image": "images/karambit.jpg"
   }
 ]
