@@ -3,7 +3,7 @@ import React from "react";
 function Navbar({ onSearch }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-      <div className="container">
+      <div className="container d-flex align-items-center justify-content-between">
         <a
           className="navbar-brand fw-bold"
           onClick={() => window.location.href = "/Tinytech/"}
