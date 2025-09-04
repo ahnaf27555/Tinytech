@@ -13,6 +13,9 @@ function App() {
     const matchesCategory = category === "All" || p.category === category;
     return matchesSearch && matchesCategory;
   });
+  const messengerPage = "61579885843067"; // your FB Page ID
+  const messengerLink = `https://m.me/${messengerPage}`;
+
 
   return (
     <div>
@@ -22,7 +25,7 @@ function App() {
         <div className="row g-4">
           {filteredProducts.map((product) => (
             <div key={product.id} className="col-sm-6 col-md-4 col-lg-3">
-              <ProductCard product={product} />
+              <ProductCard product={product} messengerLink={messengerLink} cardLink={product.cardLink}/>
             </div>
           ))}
         </div>

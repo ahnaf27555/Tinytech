@@ -1,5 +1,6 @@
 /* Product image should fit nicely */
 .product-img {
+  width: 100%;
   object-fit: cover;
   height: 200px;
   border-radius: 0.5rem 0.5rem 0 0;
