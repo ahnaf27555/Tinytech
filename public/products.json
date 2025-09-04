@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Pagani Zonda Model Car",
+    "price": "To Be Announced",
+    "category": "modelCar",
+    "description": "Pagani Zonda Cinque – where speed meets style, now in our collection. ",
+    "image": "/images/pagani-zonda.jpg"
+  },
+  {
+    "id": 2,
+    "name": "One Piece action figure",
+    "price": "To Be Announced",
+    "category": "actionFigures",
+    "description": "Bring home the ultimate action figure – where style meets power.",
+    "image": "/images/one-piece-action-figure.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Karambit",
+    "price": "To Be Announced",
+    "category": "animeAccessories",
+    "description": "Inspired by the tiger’s claw – Karambit strikes differently.",
+    "image": "/images/karambit.jpg"
+  }
+]
