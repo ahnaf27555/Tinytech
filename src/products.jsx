@@ -1,11 +1,15 @@
-[
+import karambit from './assets/images/karambit.jpg';
+import onePieceActionFigure from './assets/images/one-piece-action-figure.jpg';
+import paganiZonda from './assets/images/pagani-zonda.jpg';
+
+export const products = [
   {
     "id": 1,
     "name": "Pagani Zonda Model Car",
     "price": "To Be Announced",
     "category": "modelCar",
     "description": "Pagani Zonda Cinque – where speed meets style, now in our collection. ",
-    "image": "images/pagani-zonda.jpg"
+    "image": paganiZonda
   },
   {
     "id": 2,
@@ -13,7 +17,7 @@
     "price": "To Be Announced",
     "category": "actionFigures",
     "description": "Bring home the ultimate action figure – where style meets power.",
-    "image": "images/one-piece-action-figure.jpg"
+    "image": onePieceActionFigure
   },
   {
     "id": 3,
@@ -21,6 +25,6 @@
     "price": "To Be Announced",
     "category": "animeAccessories",
     "description": "Inspired by the tiger’s claw – Karambit strikes differently.",
-    "image": "images/karambit.jpg"
+    "image": karambit
   }
-]
+];

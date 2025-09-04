@@ -1,20 +1,14 @@
-import React, { useEffect, useState } from "react";
-import ProductCard from "./ProductCard";
-import Navbar from "./Navbar";
-import Filters from "./Filters";
+import React, { useState } from "react";
+import Navbar from "./components/Navbar";
+import Filters from "./components/Filters";
+import ProductCard from "./components/ProductCard";
+import { products } from "./products";
 
 function App() {
-  const [products, setProducts] = useState([]);
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("All");
 
-  useEffect(() => {
-    fetch("/products.json")
-      .then((res) => res.json())
-      .then((data) => setProducts(data));
-  }, []);
-
-  const filtered = products.filter((p) => {
+  const filteredProducts = products.filter((p) => {
     const matchesSearch = p.name.toLowerCase().includes(search.toLowerCase());
     const matchesCategory = category === "All" || p.category === category;
     return matchesSearch && matchesCategory;
@@ -26,7 +20,7 @@ function App() {
       <div className="container my-4">
         <Filters setCategory={setCategory} />
         <div className="row g-4">
-          {filtered.map((product) => (
+          {filteredProducts.map((product) => (
             <div key={product.id} className="col-sm-6 col-md-4 col-lg-3">
               <ProductCard product={product} />
             </div>
