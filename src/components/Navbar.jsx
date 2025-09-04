@@ -4,7 +4,13 @@ function Navbar({ onSearch }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div className="container">
-        <a className="navbar-brand fw-bold" href="/https://ahnaf27555.github.io/Tinytech/">TINYTECH</a>
+        <a
+          className="navbar-brand fw-bold"
+          onClick={() => window.location.href = "/Tinytech/"}
+          style={{ cursor: "pointer" }}
+        >
+          TINYTECH
+        </a>  
         <form className="d-flex ms-auto">
           <input
             type="search"
