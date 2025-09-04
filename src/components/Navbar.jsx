@@ -11,7 +11,7 @@ function Navbar({ onSearch }) {
         >
           TINYTECH
         </a>  
-        <form className="d-flex ms-auto">
+        <form className="d-flex ms-auto" style={{ maxWidth: "200px" }}>
           <input
             type="search"
             placeholder="Search products..."
