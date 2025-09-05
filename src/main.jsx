@@ -5,6 +5,7 @@ import App from './App.jsx'
 
 // ✅ Import Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 // ✅ Your custom styles (optional, overrides Bootstrap)
 import './index.css';
