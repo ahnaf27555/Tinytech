@@ -2,6 +2,7 @@ import karambit from './assets/images/karambit.jpg';
 import onePieceActionFigure from './assets/images/one-piece-action-figure.jpg';
 import paganiZonda from './assets/images/pagani-zonda.jpg';
 import warhammer from './assets/images/warhammer.jpg'
+import reze from './assets/images/reze-keycaps.jpg'
 
 export const products = [
   {
@@ -39,5 +40,15 @@ export const products = [
     "description": "Bring the battlefield to your shelf – JoyToy Warhammer in hand, victory is yours !Upcoming.....",
     "cardLink": "https://www.facebook.com/permalink.php?story_fbid=pfbid02FxyHKTyspdUxucgXNPQZRa5URrg6VS5L5Nn53uLYAzFxZJ4wq2Q5HGkh2DPdvUfsl&id=61579885843067",
     "image": warhammer
+  },
+  {
+    "id": 5,
+    "name": "Reze keycaps",
+    "price": "To Be Announced",
+    "category": "keycaps",
+    "description": "Reze’s beauty — now at your fingertips✨⌨Starting from only 2***BDTUpcoming.......",
+    "cardLink": "https://www.facebook.com/permalink.php?story_fbid=pfbid02oN3tTRTz4dAkHxkEaEae6Yo8M96spiF68qycf1bC27abe3DR7FhHVkpmuQnUEWNpl&id=61579885843067",
+    "image": reze
+    
   }
 ];
