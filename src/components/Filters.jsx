@@ -62,6 +62,8 @@ function Filters({ setCategory }) {
     { key: "modelCar", label: "Model Car" },
     { key: "actionFigures", label: "Action Figures" },
     { key: "keycaps", label: "Keycaps" },
+    { key: "mousepads", label: "Mouse Pads" }
+    
   ];
 
   return (

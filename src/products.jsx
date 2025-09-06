@@ -3,6 +3,7 @@ import onePieceActionFigure from './assets/images/one-piece-action-figure.jpg';
 import paganiZonda from './assets/images/pagani-zonda.jpg';
 import warhammer from './assets/images/warhammer.jpg'
 import reze from './assets/images/reze-keycaps.jpg'
+import mousepad from './assets/images/mousepad.jpg'
 
 export const products = [
   {
@@ -49,6 +50,16 @@ export const products = [
     "description": "Reze’s beauty — now at your fingertips✨⌨Starting from only 2***BDTUpcoming.......",
     "cardLink": "https://www.facebook.com/permalink.php?story_fbid=pfbid02oN3tTRTz4dAkHxkEaEae6Yo8M96spiF68qycf1bC27abe3DR7FhHVkpmuQnUEWNpl&id=61579885843067",
     "image": reze
+    
+  },
+  {
+    "id": 6,
+    "name": "Mouse Pads",
+    "price": "To Be Announced",
+    "category": "mousepads",
+    "description": "Precision starts here – The right surface for every click, only at Tinytech Store.",
+    "cardLink": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ZZS4283TTRLmt9ufHsrpoUWoDevNeYZK8QVuPKKTnHhD64oZmvoNyaYFABGRr2egl&id=61579885843067",
+    "image": mousepad
     
   }
 ];
