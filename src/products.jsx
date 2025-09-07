@@ -4,6 +4,7 @@ import paganiZonda from './assets/images/pagani-zonda.jpg';
 import warhammer from './assets/images/warhammer.jpg'
 import reze from './assets/images/reze-keycaps.jpg'
 import mousepad from './assets/images/mousepad.jpg'
+import mousepad2 from './assets/images/mousepad2.jpg'
 
 export const products = [
   {
@@ -54,12 +55,22 @@ export const products = [
   },
   {
     "id": 6,
-    "name": "Mouse Pads",
+    "name": "Mouse Pad",
     "price": "To Be Announced",
     "category": "mousepads",
     "description": "Precision starts here – The right surface for every click, only at Tinytech Store.",
     "cardLink": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ZZS4283TTRLmt9ufHsrpoUWoDevNeYZK8QVuPKKTnHhD64oZmvoNyaYFABGRr2egl&id=61579885843067",
     "image": mousepad
+    
+  },
+  {
+    "id": 7,
+    "name": "Mouse Pad",
+    "price": "To Be Announced",
+    "category": "mousepads",
+    "description": "Precision starts here – The right surface for every click, only at Tinytech Store.",
+    "cardLink": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ZZS4283TTRLmt9ufHsrpoUWoDevNeYZK8QVuPKKTnHhD64oZmvoNyaYFABGRr2egl&id=61579885843067",
+    "image": mousepad2
     
   }
 ];

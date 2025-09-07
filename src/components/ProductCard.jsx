@@ -2,7 +2,7 @@ import React from "react";
 
 function ProductCard({ product, cardLink, messengerLink }) {
   const handleCardClick = () => {
-    window.open(cardLink, "_blank"); // Opens card link in new tab
+    cardLink?window.open(cardLink, "_blank"):alert("Upcoming product! No post yet."); // Opens card link in new tab
   };
 
   const handleButtonClick = (e) => {
